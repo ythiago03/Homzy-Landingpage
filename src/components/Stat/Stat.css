@@ -1,0 +1,7 @@
+.stat>:nth-child(1){
+  font-size: 2rem;
+}
+
+.stat>:nth-child(1)>:last-child{
+  color: orange;
+}
