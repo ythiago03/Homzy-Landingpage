@@ -4,7 +4,7 @@ import './Stat.css';
 
 const Stat = ({ start, end, duration, desc }) => {
   return (
-    <div className="flexColStart stat">
+    <div className="flexColCenter stat">
       <span>
         <CountUp start={start} end={end} duration={duration} />
         <span>+</span>
