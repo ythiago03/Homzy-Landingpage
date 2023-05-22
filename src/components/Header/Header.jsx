@@ -3,7 +3,7 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <section className="h-wrapper">
+    <header className="h-wrapper">
       <div className="flexCenter paddings innerWidth h-container">
 
         <img src="src\assets\img\logo.png" alt="Logo" width={100} />
@@ -19,7 +19,7 @@ const Header = () => {
         </nav>
 
       </div>
-    </section>
+    </header>
   );
 };
 

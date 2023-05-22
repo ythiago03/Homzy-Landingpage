@@ -15,6 +15,8 @@ import data from '../../utils/accordion';
 import './Value.css';
 
 const Value = () => {
+  const [className, setClassName] = useState(null);
+
   return (
     <section className="v-wrapper">
       <div className="paddings innerWidth flexCenter v-container">
@@ -41,9 +43,7 @@ const Value = () => {
             preExpanded={[0]}
           >
             {
-              data.map((item, i) => {
-              
-                const [className, setClassName] = useState(null);    
+              data.map((item, i) => {     
 
                 return (
                   <AccordionItem 
