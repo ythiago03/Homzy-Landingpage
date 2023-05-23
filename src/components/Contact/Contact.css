@@ -23,3 +23,18 @@
   gap: 1.5rem;
 }
 
+@media (max-width: 1024px){
+  .c-container{
+    flex-direction: column;
+  }
+  .c-container .c-right{
+    justify-content: center;
+  }
+  .contactModes{
+    width: 100%;
+  }
+  .row{
+    flex-direction: column;
+    width: 100%;
+  }
+}

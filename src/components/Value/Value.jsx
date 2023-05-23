@@ -15,7 +15,7 @@ import data from '../../utils/accordion';
 import './Value.css';
 
 const Value = () => {
-  const [className, setClassName] = useState(null);
+  
 
   return (
     <section className="v-wrapper">
@@ -44,7 +44,8 @@ const Value = () => {
           >
             {
               data.map((item, i) => {     
-
+                const [className, setClassName] = useState(null);
+                
                 return (
                   <AccordionItem 
                     key={i}

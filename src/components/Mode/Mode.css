@@ -35,3 +35,9 @@
   color: white;
   scale: 0.8;
 }
+
+@media (max-width: 1024px){
+  .mode{
+    width: 100%;
+  }
+}
