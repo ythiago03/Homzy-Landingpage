@@ -68,7 +68,7 @@ const Hero = () => {
               type: 'spring'
             }}
           >
-            <img src="src/assets/img/hero-image.png" alt="House Image"/>
+            <img src="src/assets/hero-image.png" alt="House Image"/>
           </motion.div>
         </div>
       </div>
