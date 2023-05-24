@@ -3,7 +3,7 @@ import OutsideClickHandler from 'react-outside-click-handler';
 
 import {BiMenuAltRight} from 'react-icons/bi';
 
-
+import logoImg from '../../assets/logo.png';
 import './Header.css';
 
 const Header = () => {
@@ -20,7 +20,7 @@ const Header = () => {
     <header className="h-wrapper">
       <div className="flexCenter paddings innerWidth h-container">
 
-        <img src="src\assets\logo.png" alt="Logo" width={100} />
+        <img src={logoImg} alt="Logo" width={100} />
 
         <OutsideClickHandler
           onOutsideClick={() => setMenuOpened(false)}

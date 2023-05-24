@@ -2,6 +2,7 @@ import React from 'react';
 
 import './Contact.css';
 import Mode from '../Mode/Mode';
+import contactImg from '../../assets/contact.jpg';
 
 const Contact = () => {
   return (
@@ -50,7 +51,7 @@ const Contact = () => {
         {/* right side */}
         <div className="c-right">
           <div className="image-container">
-            <img src="src\assets\contact.jpg" alt="House" />
+            <img src={contactImg} alt="House" />
           </div>  
         </div>
       </div>

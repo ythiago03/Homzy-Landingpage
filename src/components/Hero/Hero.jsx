@@ -4,6 +4,7 @@ import Stat from '../Stat/Stat';
 import {HiLocationMarker} from 'react-icons/hi';
 import { motion } from 'framer-motion';
 
+import heroImg from '../../assets/hero-image.png';
 import './Hero.css';
 
 const Hero = () => {
@@ -68,7 +69,7 @@ const Hero = () => {
               type: 'spring'
             }}
           >
-            <img src="src/assets/hero-image.png" alt="House Image"/>
+            <img src={heroImg} alt="House Image"/>
           </motion.div>
         </div>
       </div>

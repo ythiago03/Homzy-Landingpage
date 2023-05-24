@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import{
   Accordion,
   AccordionItem,
@@ -9,8 +10,8 @@ import{
 } from 'react-accessible-accordion';
 import 'react-accessible-accordion/dist/fancy-example.css';
 import {MdOutlineArrowDropDown} from 'react-icons/md';
-
 import data from '../../utils/accordion';
+import valueImg from '../../assets/value.png';
 
 import './Value.css';
 
@@ -23,7 +24,7 @@ const Value = () => {
         {/* left side */}
         <div className="v-left">
           <div className="image-container">
-            <img src="src/assets/value.png" alt="House" />
+            <img src={valueImg} alt="House" />
           </div>
         </div>
 
